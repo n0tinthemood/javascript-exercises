@@ -1,6 +1,6 @@
 const removeFromArray = function(array, ...args) {
     for(let i = 0; i <= args.length-1; i++) {
-        //if values arent present in array -> indexOf return -1, check for present values
+        //if values arent present in array -> indexOf() returns -1, check for present values
         let checkPresent =array.indexOf(args[i]);
         if(checkPresent !== -1) 
             //get index of to be removed arg and remove from array
